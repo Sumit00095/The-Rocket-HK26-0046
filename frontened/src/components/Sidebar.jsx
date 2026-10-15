@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   LayoutDashboard,
   ShieldAlert,
@@ -36,6 +37,10 @@ function Sidebar() {
           <FileText size={20} />
           Reports
         </NavLink>
+        <Link to="/phishing">
+  <span>🛡️</span>
+  <span>AI Phishing Detection</span>
+</Link>
 
       </nav>
 

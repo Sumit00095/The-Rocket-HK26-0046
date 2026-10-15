@@ -6,7 +6,7 @@ import Threats from "./pages/Threats";
 import Alerts from "./pages/Alerts";
 import Reports from "./pages/Reports";
 import Register from "./pages/Register";
-
+import Phishing from "./pages/Phishing";
 
 
 
@@ -20,7 +20,7 @@ function App() {
         <Route path="/alerts" element={<Alerts />} />
         <Route path="/reports" element={<Reports />} />
         <Route path="/register" element={<Register />} />
-        
+        <Route path="/phishing" element={<Phishing />} />
 <Route path="/register" element={<Register />} />
 
       </Routes>
